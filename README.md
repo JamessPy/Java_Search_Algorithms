@@ -1,8 +1,7 @@
 # Java_Search_Algorithms
 In this section, I'll share search algorithms that can be used in Java or any other language. In this repo, I'll be using Java.
-
-
 I wanted to explain it with images, my current file structure is like this. 
+
 <img width="456" height="353" alt="image" src="https://github.com/user-attachments/assets/133bb692-9e45-4c8b-8388-43ace01ab273" />
 
 Here I wanted to use DFS (Depth-First Search).In this approach, it goes to the depth of the node where it first started.It takes its name from here.
