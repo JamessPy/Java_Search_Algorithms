@@ -17,4 +17,7 @@ we can use the BFS (Breadth-First Search) algorithm. I'll add that later.
 
 With this structure, we can quickly access the file we're looking for. I wanted to demonstrate this with an example file, but it can be used in many different ways.
 
+<img width="1948" height="1180" alt="result" src="https://github.com/user-attachments/assets/cdd0f0bb-7edf-4a17-88ba-7c89317241c4" />
+
+
 
