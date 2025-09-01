@@ -4,7 +4,9 @@ I wanted to explain it with images, my current file structure is like this.
 
 <img width="456" height="353" alt="image" src="https://github.com/user-attachments/assets/133bb692-9e45-4c8b-8388-43ace01ab273" />
 
-Here I wanted to use DFS (Depth-First Search).In this approach, it goes to the depth of the node where it first started.It takes its name from here.
+Here I wanted to use DFS (Depth-First Search).In this approach, it goes to the depth of the node where
+it first started.It takes its name from here.
+
 <img width="582" height="58" alt="image" src="https://github.com/user-attachments/assets/78b37030-c8cf-4c9e-b652-6a32754a21d6" />
 
 We can use this search algorithm when we want to search for files with a .pdf extension. 
