@@ -7,13 +7,13 @@ I wanted to explain it with images, my current file structure is like this.
 Here I wanted to use DFS (Depth-First Search).In this approach, it goes to the depth of the node where
 it first started.It takes its name from here.
 
-<img width="582" height="58" alt="image" src="https://github.com/user-attachments/assets/78b37030-c8cf-4c9e-b652-6a32754a21d6" />
+<img width="935" height="112" alt="image" src="https://github.com/user-attachments/assets/0de2d20f-cdb0-4936-8094-37233f9af3e4" />
 
 We can use this search algorithm when we want to search for files with a .pdf extension. 
 If we don't think the file we're looking for is deep, or if we want to search sequentially and step by step,
 we can use the BFS (Breadth-First Search) algorithm. I'll add that later.
 
-<img width="922" height="140" alt="image" src="https://github.com/user-attachments/assets/c6a55ba4-d673-411b-ac03-5b2c97d9c284" />
+<img width="964" height="139" alt="image" src="https://github.com/user-attachments/assets/7067ff5e-7577-4a77-a5cd-83708cd83961" />
 
 With this structure, we can quickly access the file we're looking for. I wanted to demonstrate this with an example file, but it can be used in many different ways.
 
