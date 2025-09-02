@@ -56,7 +56,7 @@ public class DfsFileFinder {
                 dirs.sort(Comparator.naturalOrder());
                 files.sort(Comparator.naturalOrder());
 
-                if (order == Order.DIRS_FIRST) {
+                if (order == Order.FILES_FIRST) {
                     for (Path f : files)
                         if (m.matches(f.getFileName())) { ans.value = f; return true; }
                     for (Path d : dirs)
@@ -98,7 +98,7 @@ public class DfsFileFinder {
                 dirs.sort(Comparator.naturalOrder());
                 files.sort(Comparator.naturalOrder());
 
-                if (order == Order.DIRS_FIRST) {
+                if (order == Order.FILES_FIRST) {
                     for (Path f : files) if (m.matches(f.getFileName())) out.add(f.toAbsolutePath());
                     for (Path d : dirs) dfsAll(d, m, v, out, order);
                 } else { // DIRS_FIRST
@@ -114,8 +114,8 @@ public class DfsFileFinder {
     public static void main(String[] args) {
         Path start      = Paths.get(args.length > 0 ? args[0] : ".");
         String pattern  = args.length > 1 ? args[1] : "*.pdf";
-        String mode     = args.length > 2 ? args[2].toLowerCase(Locale.ROOT) : "first"; // "first" | "all"
-        Order order     = args.length > 3 && args[3].equalsIgnoreCase("files")
+        String mode     = args.length > 2 ? args[2].toLowerCase(Locale.ROOT) : "all"; // "first" | "all"
+        Order order     = args.length > 3 && args[3].equalsIgnoreCase("dirs")
                             ? Order.FILES_FIRST : Order.DIRS_FIRST; // "dirs"(def) | "files"
 
         System.out.printf("Start=%s \n Pattern=%s  Mode=%s  Order=%s \n",
