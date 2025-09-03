@@ -19,6 +19,18 @@ With this structure, we can quickly access the file we're looking for. I wanted 
 
 <img width="1822" height="1272" alt="result" src="https://github.com/user-attachments/assets/7022a74a-d05b-4228-88a0-a32c600cd34f" />
 
+------------------------
+
+In this section, I wanted to sort using the BFS algorithm. The outputs are as follows.
+
+<img width="940" height="143" alt="image" src="https://github.com/user-attachments/assets/cb7c6815-d87e-4994-9077-2551f4375270" />
+
+<img width="1822" height="1272" alt="bfs" src="https://github.com/user-attachments/assets/335ed369-66ad-48d1-89bb-5ebc47616c49" />
+
+
+
+
+
 
 
 
